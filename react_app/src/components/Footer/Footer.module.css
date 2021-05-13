@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--grey-a010);
+  padding: 5px;
+  margin-top: auto;
+  height: 30px;
+}
+
+  footer div {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+#copyright, #copyright a {
+  color: var(--grey-a060);
+}

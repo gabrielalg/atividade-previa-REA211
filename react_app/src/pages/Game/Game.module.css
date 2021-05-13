@@ -1,0 +1,17 @@
+#gameArea {
+  background-color: var(--wine-a003);
+  height: calc(100% - 100px);
+}
+
+.game-img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.action-bar {
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
