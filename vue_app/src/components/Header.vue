@@ -1,7 +1,7 @@
 <template>
   <header class="flex-column justify-align-center">
     <h1 class="text-subtitle game-title">Jogo da Maçã (Vue)</h1>
-    <p class="text-body"> Clique na maçã para alterar o contador.</p>
+    <p class="text-body"> Clique na maçã para alterar o contador</p>
   </header>
 </template>
 

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Apple from '../../assets/img/illustrations/apple.svg';
 import Button from '../../elements/Button/Button.js';
@@ -7,6 +7,11 @@ import style from './Game.module.css';
 
 function Game() {
   let [count, setCount] = useState(0);
+  let [positionImg, setPositionImg] = useState({});
+
+  useEffect(() => {
+    changePositionImage()
+  }, [])
 
   const changePositionImage = () => {
     let window_Height = window.innerHeight;
@@ -22,7 +27,7 @@ function Game() {
       randNum_V = 0;
     } 
 
-    return {top: randNum_V + "px", left: randNum_H + "px"}
+    return setPositionImg({top: randNum_V + "px", left: randNum_H + "px"})
   }
 
   return <>
@@ -34,8 +39,11 @@ function Game() {
       <img className={style['game-img']} 
                 alt="Desenho de uma maçã"
                 src={Apple} 
-                onClick={() => setCount(++count)}
-                style={changePositionImage()}/>
+                onClick={() => {
+                  setCount(++count)
+                  changePositionImage()
+                }}
+                style={positionImg}/>
     </section>
   </>
 }

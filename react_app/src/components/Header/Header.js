@@ -5,7 +5,7 @@ function Header() {
   return <>
     <header className="flex-column justify-align-center">
       <h1 className={`text-subtitle ${style['game-title']}`}>Jogo da Maçã (React)</h1>
-      <p className="text-body"> Clique na maçã para alterar o contador.</p>
+      <p className="text-body"> Clique na maçã para alterar o contador</p>
     </header>
   </>
 }
