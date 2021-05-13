@@ -1,0 +1,9 @@
+header {
+  background-color: var(--wine);
+  color: var(--white);
+  height: 70px;
+}
+
+header .game-title{
+  margin-bottom: 5px;
+}
