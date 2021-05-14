@@ -40,10 +40,10 @@ Cada uma delas possui instruções diferentes para rodar o projeto.
 
 ### 🔧 Pré-requisitos
 
-Antes de começar, você precisa ter os seguintes itens instalados no seu computador:
+Antes de começar, você precisa ter as seguintes ferramentas instaladas no seu computador:
 
 * [Git](https://git-scm.com)
-* [Node.js](https://nodejs.org/en/). 
+* [Node.js](https://nodejs.org/en/)
 
 Além disso, também é interessante ter um editor de texto instalado para trabalhar com o código. Recomendo a utilização do [VSCode](https://code.visualstudio.com/).
 
