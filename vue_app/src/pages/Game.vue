@@ -5,7 +5,7 @@
       <p class="text-subtitle">Total de Cliques: <span id="counter">{{count}}</span></p>
     </div>
     <img class="game-img" alt="Desenho de uma maçã" src="../assets/img/apple.svg"
-         :style="positionedImg"
+         :style="positionImg"
          @click="() => {
           ++count 
           changePositionImage()
@@ -24,7 +24,7 @@ export default {
   data() {
     return { 
       count: 0, 
-      positionedImg: this.changePositionImage()
+      positionImg: this.changePositionImage()
     }
   },
   methods: {
@@ -42,7 +42,7 @@ export default {
         randNum_V = 0;
       } 
 
-      return this.positionedImg = {top: randNum_V + "px", left: randNum_H + "px"};
+      return this.positionImg = {top: randNum_V + "px", left: randNum_H + "px"};
     }
   }
 }
