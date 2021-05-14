@@ -22,7 +22,7 @@ O "Jogo da Maçã" é um projeto feito como exercício para a disciplina de Dese
 
 ## ⚙️ Funcionalidades
 
-- [x] Posisionar a imagem da maçã aleatoriamente na tela e permitir o incremento de um contador toda vez que a maçã recebe um evento de clique.
+- [x] Posicionar a imagem da maçã aleatoriamente na tela e permitir o incremento de um contador toda vez que a maçã recebe um evento de clique.
 
 <br/>
 
