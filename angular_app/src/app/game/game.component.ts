@@ -12,14 +12,14 @@ export class GameComponent implements OnInit {
   constructor() { }
 
   changePositionImage() {
-    let window_Height = window.innerHeight;
-    let window_Width = window.innerWidth;
+    let window_Height: number = window.innerHeight;
+    let window_Width: number = window.innerWidth;
 
-    let availSpace_V = window_Height - 240;
-    let availSpace_H = window_Width - 100;
+    let availSpace_V: number = window_Height - 240;
+    let availSpace_H: number = window_Width - 100;
 
-    let randNum_V = Math.round(Math.random() * availSpace_V) - 30;
-    let randNum_H = Math.round(Math.random() * availSpace_H);
+    let randNum_V: number = Math.round(Math.random() * availSpace_V) - 30;
+    let randNum_H: number = Math.round(Math.random() * availSpace_H);
 
     if (randNum_V < 0) { 
       randNum_V = 0;

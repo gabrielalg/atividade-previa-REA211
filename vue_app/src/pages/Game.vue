@@ -51,7 +51,7 @@ export default {
 <style scoped>
 
 #gameArea {
-  background-color: var(--wine-a003);
+  background-color: var(--wine-a005);
   height: calc(100% - 100px);
 }
 
